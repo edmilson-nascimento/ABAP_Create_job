@@ -83,6 +83,6 @@ ENDIF.
 
 
 ### DICA IMPORTANTE ###
-Caso precise debugar um JOB que já aconteceu (com erro ou sucesso) basta selecionar a linha desse JOB na SM37 (que queira debugar) e após marcar a linha inserir no local da transação a sigla "###JDBG###" (sem aspas) e dar ENTER.
+Caso precise debugar um JOB que já aconteceu (com erro ou sucesso) basta selecionar a linha desse JOB na SM37 (que queira debugar) e após marcar a linha inserir no local da transação a sigla "JDBG" (sem aspas) e dar ENTER.
 O mundo abrirá diante de seus olhos.
 Vá dando F7 até cair no programa do JOB e seja FELIZ...
