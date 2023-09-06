@@ -1,6 +1,7 @@
 
 # ABAP_Create_job
-Criação de JOB via código
+
+**Criação de JOB via código**
 
 Aqui temos uma opção interessante para aquele processamento desagradável ou pesado demais que é mais interessante jogar pra um processamento em JOB/background e ter o LOG já na transação SM37, do que fazer todo um aparato de LOG para algo sem tanta relevância ou por não ter necessidade mesmo.
 Mas fato é que aquele processo DEVE ser RODADO em JOB por algum motivo e para esse cenário temos uma receitinha SIMPLES prática e rápida....
@@ -84,5 +85,7 @@ ENDIF.
 
 ### DICA IMPORTANTE ###
 Caso precise debugar um JOB que já aconteceu (com erro ou sucesso) basta selecionar a linha desse JOB na SM37 (que queira debugar) e após marcar a linha inserir no local da transação a sigla "JDBG" (sem aspas) e dar ENTER.
+
 O mundo abrirá diante de seus olhos.
+
 Vá dando F7 até cair no programa do JOB e seja FELIZ...
