@@ -1,4 +1,7 @@
 
+# ABAP_Create_job
+
+**Criação de JOB via código**
 # ABAP - Create Job
 Criação de JOB via código
 
@@ -88,8 +91,12 @@ ENDIF.
 É isso, simples e prático.
 
 
+### DICA IMPORTANTE ###
+Caso precise debugar um JOB que já aconteceu (com erro ou sucesso) basta selecionar a linha desse JOB na SM37 (que queira debugar) e após marcar a linha inserir no local da transação a sigla "JDBG" (sem aspas) e dar ENTER.
+
 ### Dica importante
 Caso precise debugar um JOB que já aconteceu (com erro ou sucesso) basta selecionar a linha desse JOB na SM37 (que queira debugar) e após marcar a linha inserir no local da transação a sigla `JDBG` e dar *ENTER*.
 O mundo abrirá diante de seus olhos.
+
 
 Vá dando F7 até cair no programa do JOB e seja FELIZ...
