@@ -4,8 +4,11 @@
 Criação de JOB via código — cria e agenda JOBs em background (SM37) com exemplo prático.
 
 ![Static Badge](https://img.shields.io/badge/development-abap-blue)
+![SAP](https://img.shields.io/badge/SAP-ABAP-0076D6)
+![ABAP](https://img.shields.io/badge/Language-ABAP-006400)
+![Eclipse%20ADT](https://img.shields.io/badge/Eclipse%20ADT-Recommended-6A1B9A)
 ![GitHub commit activity (branch)](https://img.shields.io/github/commit-activity/t/mourilo/ABAP_Create_job)
-![Static Badge](https://img.shields.io/badge/murilo_borges-abap-lime)
+![Maintainer](https://img.shields.io/badge/murilo_borges-maintainer-lime)
 
 ## Sumário
 
